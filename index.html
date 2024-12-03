@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinturon Verde </title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/mapbox-gl@2.15.0/dist/mapbox-gl.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/mapbox-gl@2.15.0/dist/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     
+  </head>
+  <body>
+   <!--<div class="tab-container">-->
+     <!-- pestañas -->
+   <!-- <div class="tab-buttons">
+        <button class="tab-button active" data-tab="tab1">mapa</button>
+        <button class="tab-button" data-tab="tab2">indicadores</button>
+    </div>
+
+    <div id="tab1" class="tab-content active">
+      <h2>Contenido de Pestaña 1</h2>
+      <p>Este es el contenido de la primera pestaña.</p>
+    -->
+      <div id="map"></div>      
+      <div id="sidebar">
+        <div id="bar-chart" class="total_hist">
+          <canvas id="barras"></canvas>
+        </div>
+        <div id="pie-chart" class="proveedor">
+          <canvas id="pastel"></canvas>
+        </div>
+        <div id="line-chart" class="meta-porcentaje">
+          <canvas id="lineas"></canvas>
+        </div>
+        <div>
+          <label for="peso1">Peso del Criterio 1</label>
+          <input type="range" id="peso1" min="0" max="1" step="0.1" value="0.5" />
+        </div>
+        <div>
+          <label for="peso2">Peso del Criterio 2</label>
+          <input type="range" id="peso2" min="0" max="1" step="0.1" value="0.5" />
+        </div>
+      </div>
+    </div>
+     <!-- <div id="tab2" class="tab-content">
+        <h2>Contenido de Pestaña 2</h2>
+        <p>Este es el contenido de la segunda pestaña.</p>-->
+      </div>
+    </div>
+    <script src="functions.js"></script>
+  </body>
+</html>

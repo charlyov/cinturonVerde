@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página con Pestañas</title>
+  <style>
+    /* Estilos básicos */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Contenedor de las pestañas */
+    .tab-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+
+    /* Botones de las pestañas */
+    .tab-buttons {
+      display: flex;
+      border-bottom: 2px solid #ccc;
+    }
+
+    .tab-buttons button {
+      padding: 10px 20px;
+      border: none;
+      background: #f0f0f0;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .tab-buttons button.active {
+      border-bottom: 2px solid #007bff;
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    .tab-buttons button:hover {
+      background: #e0e0e0;
+    }
+
+    /* Contenido de las pestañas */
+    .tab-content {
+      display: none;
+      padding: 20px;
+      width: 100%;
+      max-width: 600px;
+      text-align: left;
+      border: 1px solid #ccc;
+      border-top: none;
+      background: #fff;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="tab-container">
+    <!-- Encabezados de pestañas -->
+    <div class="tab-buttons">
+      <button class="tab-button active" data-tab="tab1">Pestaña 1</button>
+      <button class="tab-button" data-tab="tab2">Pestaña 2</button>
+    </div>
+
+    <!-- Contenido de las pestañas -->
+    <div id="tab1" class="tab-content active">
+      <h2>Contenido de Pestaña 1</h2>
+      <p>Este es el contenido de la primera pestaña.</p>
+    </div>
+    <div id="tab2" class="tab-content">
+      <h2>Contenido de Pestaña 2</h2>
+      <p>Este es el contenido de la segunda pestaña.</p>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript para alternar las pestañas
+    const buttons = document.querySelectorAll('.tab-button');
+    const contents = document.querySelectorAll('.tab-content');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Desactivar todas las pestañas y contenido
+        buttons.forEach(btn => btn.classList.remove('active'));
+        contents.forEach(content => content.classList.remove('active'));
+
+        // Activar la pestaña seleccionada
+        button.classList.add('active');
+        const tabId = button.getAttribute('data-tab');
+        document.getElementById(tabId).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

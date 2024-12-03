@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"name": "cverde",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "San Francisco Peribán", "guardabosque": null, "autogob": "", "purhe": null, "vivero": 1, "region": "OCCIDENTE", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -102.3992664, 19.5564975, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Nuevo Zirosto", "pob": 10, "vivero": 0, "region": "OCCIDENTE", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -102.345613, 19.548753, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Zacán", "vivero": 0, "region": "OCCIDENTE", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -102.2877004, 19.5641565, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Ocumicho", "guardabosque": null, "vivero": 1, "region": "SIERRA", "TESIS": 1 }, "geometry": { "type": "Point", "coordinates": [ -102.2212339, 19.7956459, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Sicuicho", "guardabosque": null, "vivero": 0, "region": "OCCIDENTE", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -102.3335024, 19.6604401, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Cocucho", "vivero": 0, "region": "SIERRA", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -102.1902803, 19.6939314, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Nurio", "vivero": 0, "region": "SIERRA", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -102.1302454, 19.6543984, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Pomacuarán", "guardabosque": null, "vivero": 0, "region": "SIERRA", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -102.1025831, 19.6215686, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Paracho", "pob": null, "vivero": 0, "region": "SIERRA", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -102.0461233, 19.6464537, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Nahuatzen", "vivero": 1, "region": "SIERRA", "TESIS": 1 }, "geometry": { "type": "Point", "coordinates": [ -101.9148393, 19.6552766, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "San Francisco Uricho", "vivero": 0, "region": "LAGO", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -101.7167931, 19.5731907, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jarácuaro", "guardabosque": null, "vivero": 0, "region": "LAGO", "TESIS": 1 }, "geometry": { "type": "Point", "coordinates": [ -101.6755212, 19.5597747, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "San Andrés Tziróndaro", "vivero": 0, "region": "LAGO", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -101.6330893, 19.6690507, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Santa Fe de la Laguna", "vivero": 0, "region": "LAGO", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -101.5544264, 19.6710452, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "San Benito\n", "vivero": 0, "region": "OCCIDENTE", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -102.320160752661295, 19.707555239941488, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "San Antonio", "pob": null, "guardabosque": null, "autogob": null, "purhe": null, "vivero": 1, "region": "OCCIDENTE", "TESIS": 0 }, "geometry": { "type": "Point", "coordinates": [ -102.294909301954092, 19.721732535088424, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Zirahuén", "pob": null, "guardabosque": "0", "autogob": "1", "purhe": "0", "vivero": 0, "region": "LAGO", "TESIS": 1 }, "geometry": { "type": "Point", "coordinates": [ -101.736408155328945, 19.455004889712065, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Tomendán", "pob": null, "guardabosque": null, "autogob": null, "purhe": null, "vivero": 0, "region": "SIERRA", "TESIS": null }, "geometry": { "type": "Point", "coordinates": [ -101.860400140988006, 19.311687261148862, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Urandén", "pob": null, "guardabosque": null, "autogob": null, "purhe": null, "vivero": 0, "region": "LAGO", "TESIS": null }, "geometry": { "type": "Point", "coordinates": [ -101.644021569296783, 19.542681209998172, 0.0 ] } }
+]
+}
